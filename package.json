@@ -1,0 +1,27 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "Learn DSA Patterns",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "run": "node dist/index.js",
+    "start": "npm run clean && npm run build && npm run run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevinedwin/dsa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nevinedwin/dsa/issues"
+  },
+  "homepage": "https://github.com/nevinedwin/dsa#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

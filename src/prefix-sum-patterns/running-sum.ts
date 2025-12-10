@@ -1,0 +1,13 @@
+// Given an array, return its running sum.
+
+function runningSum(nums: number[]): number[] {
+
+    for (let i: number = 1; i < nums.length; i++) {
+        nums[i] = nums[i] + nums[i - 1];
+    }
+    return nums;
+};
+
+const input: number[] = [1, 2, 3, 4];
+const result: number[] = runningSum(input);
+console.log(result);
