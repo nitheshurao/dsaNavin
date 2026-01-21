@@ -11,3 +11,6 @@ function runningSum(nums: number[]): number[] {
 const input: number[] = [1, 2, 3, 4];
 const result: number[] = runningSum(input);
 console.log(result);
+
+
+export {} //typescript consider this as module

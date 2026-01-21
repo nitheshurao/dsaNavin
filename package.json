@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "run": "node dist/index.js",
-    "start": "npm run clean && npm run build && npm run run"
+    "start": "nodemon --watch src --ext ts --exec tsx src/index.ts",
+    "runprod": "node dist/index.js",
+    "run": "npm run clean && npm run build && npm run runprod"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/nevinedwin/dsa#readme",
   "devDependencies": {
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
   }
 }
