@@ -1,1 +1,1 @@
-import "./prefix-sum-patterns/range-update-using-differentArr";
+import "./sorting/bubble-sort";
