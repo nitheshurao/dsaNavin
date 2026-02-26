@@ -6,4 +6,6 @@ export class ListNode {
         this.val = val;
         this.next = next;
     }
+    
 }
+console.log("test")
