@@ -1,1 +1,1 @@
-import "./binary-tree-patterns/traversal/level-order-traversal";
+import "./binary-tree-patterns/identical-trees";
